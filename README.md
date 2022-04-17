@@ -102,10 +102,11 @@ El programa tiene predefinido los siguientes valores por defecto en caso de no i
 
 Si al ejecutar el programa, el mismo detecta que no se pasaron la totalidad de argumentos o ninguno de ellos, se presentara en pantalla un menú como el que se muestra en la figura (2).
 
-<p align="center">
-     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura4.JPG"> 
-     <h5 align="center"> Fig. 2 Menú Principal </h5>
-</p>
+<div align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura4.JPG">
+     <div>Fig. 2 Menú Principal</div>
+</div>
+
 Aquí se espera el ingreso de alguna de las opciones presentadas, no marcar opción implicara el seteo de los valores por defecto.
 Para ingresar en algunas de las opciones, el menú admite que se marque la opción numérica o la letra en minúscula o mayúscula correspondiente (la única excepción es la opción c donde se discrimina la mayúscula de la minúscula). Para finalizar además puede ingresarse ‘q’ o ‘Q’.
 
@@ -114,40 +115,41 @@ Ejemplo:
 Si se desea modificar la resolución de la imagen, puede ingresarse en la opción ‘R’ e ingresar el valor deseado. Figura (3)
 
 
-<p align="center">
-     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura5.JPG"> 
-     <h5 align="center"> Fig. (3) A. Seteo de resolución vía Menú </h5>
-</p>
+<div align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura5.JPG">
+     <div> Fig. (3) A. Seteo de resolución vía Menú </div>
+</div>     
 
 
-<p align="center">
-     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura6.JPG"> 
-     <h5 align="center"> Fig. (3) B. Seteo de resolución vía Menú </h5>
-</p>
+
+<div align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura6.JPG">
+     <div> Fig. (3) B. Seteo de resolución vía Menú </div>
+</div>
 
 
-<p align="center">
-     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura7.JPG"> 
-     <h5 align="center"> Fig. (3) C. Seteo de resolución vía Menú </h5>
-</p>
+<div align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura7.JPG">
+     <div> Fig. (3) C. Seteo de resolución vía Menú </div>
+</div>
 
 Como puede detallarse en la Fig. (3) C., al ingresar en la opción R, se pre-visualiza el valor ingresado, lo que permite modificarlo si se detecta un error. Dichos valores pueden cambiarse cuantas veces se desee hasta que no se ingrese la opción de finalizar.
 De ingresar en la opción finalizar se mostrará en pantalla los valores con los que se armara la imagen. Para el ejemplo de la imagen 3 será:
 
 
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura8.JPG"> 
-     <h5 align="center"> Fig. (4) Armado de Imagen </h5>
-</p>
+     <div> Fig. (4) Armado de Imagen </div>
+</div>
 
 El archivo resultante tendrá la siguiente apariencia.
 
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura9.JPG"> 
-     <h5 align="center"> Fig. (5) Imagen de Ejemplo </h5>
-</p>
+     <div> Fig. (5) Imagen de Ejemplo </div>
+</div>
 
 
 ***
@@ -167,22 +169,22 @@ Para ejecutar el programa en este modo, es necesario ejecutar el mismo con algun
 
 Por ejemplo: 
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura10.JPG"> 
-     <h5 align="center">Fig. (6) Seteo de parámetros vía modo desatendido</h5>
-</p>
+     <div>Fig. (6) Seteo de parámetros vía modo desatendido</div>
+</div>
 
 El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura11.JPG"> 
-     <h5 align="center">Fig. (7) Resumen de valores ingresados</h5>
-</p>
+     <div>Fig. (7) Resumen de valores ingresados</div>
+</div>
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura12.JPG"> 
-     <h5 align="center">Fig. (7) Imagen generada de valores ingresados por línea de comando.</h5>
-</p>
+     <div>Fig. (7) Imagen generada de valores ingresados por línea de comando.</div>
+</div>
 
 
 ***
@@ -194,10 +196,10 @@ En el encabezado de la imagen se agregó la posición del centro y el ancho/alto
 
 Ejemplo de header o encabezado de archivo imagen:
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura13.JPG"> 
-     <h5 align="center">Fig. (8) Encabezado del archivo imagen generado.</h5>
-</p>
+     <div>Fig. (8) Encabezado del archivo imagen generado.</div>
+</div>
 
 ***
 <a name="Test-del-programa"></a>
@@ -205,27 +207,29 @@ Ejemplo de header o encabezado de archivo imagen:
 
 En la siguiente tabla se volcaron los resultados de las distintas corridas de prueba realizadas y el tiempo medido en segundos de cada prueba. Los resultados son aproximados y no se contempló el error humano en la toma de las mediciones.
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura14.JPG"> 
-</p>
+</div>
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura15.JPG"> 
-     <h5 align="center">Fig. (9) Archivos generados en las corridas de pruebas.</h5>
-</p>
+     <div>Fig. (9) Archivos generados en las corridas de pruebas.</div>
+</div>
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura16.JPG"> 
-     <h5 align="center">Fig. (10) Archivos generados en las corridas de pruebas test#21 y test#5</h5>
-</p>
-<p align="center">
+     <div>Fig. (10) Archivos generados en las corridas de pruebas test#21 y test#5</div>
+</div>
+
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura17.JPG"> 
-     <h5 align="center">Fig. (11) Archivos generados en las corridas de pruebas test#5 y test#7</h5>
-</p>
-<p align="center">
+     <div>Fig. (11) Archivos generados en las corridas de pruebas test#5 y test#7</div>
+</div>
+
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura18.JPG"> 
-     <h5 align="center">Fig. (12) Archivos generados en las corridas de pruebas test#5 y test#7</h5>
-</p>
+     <div >Fig. (12) Archivos generados en las corridas de pruebas test#5 y test#7</div>
+</div>
 
 ***
 <a name="conclusiones"></a>
@@ -240,6 +244,6 @@ Finalmente y pese a lo rudimentario de las pruebas, podemos concluir en que la i
 <a name="Algunos-ejemplos-de-salida"></a>
 ### Algunos ejemplos de salida
 
-<p align="center">
+<div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura19.JPG"> 
-</p>
+</div>
