@@ -86,15 +86,15 @@ Donde los argumentos de entrada a y b serán los complejos a comparar y el enter
 
 El programa tiene predefinido los siguientes valores por defecto en caso de no ingresarse la opción correspondiente:
 
-- Nombre del Archivo: “out.pgm”
-- Resolución: 640x480
-- Posición del centro: 0 +0i
-- Intensidad del Pixel: 256
-- Ancho: 4
-- Alto: 4
-- Cantidad de dígitos significativos: 3
-- Tamaño de Cache: 0 
-- Semilla: -0.7 + 0.29015i
+- Nombre del Archivo: **“out.pgm”**
+- Resolución: **640x480**
+- Posición del centro: **0 +0i**
+- Intensidad del Pixel: **256**
+- Ancho: **4**
+- Alto: **4**
+- Cantidad de dígitos significativos: **3**
+- Tamaño de Cache: **0**
+- Semilla: **-0.7 + 0.29015i**
 
 ***
 <a name="ejecucion-asistido"></a>
@@ -117,26 +117,23 @@ Si se desea modificar la resolución de la imagen, puede ingresarse en la opció
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura5.JPG">
-     <div> Fig. (3) A. Seteo de resolución vía Menú </div>
+     <div>Fig. (3) A. Seteo de resolución vía Menú</div>
 </div>     
-
 
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura6.JPG">
-     <div> Fig. (3) B. Seteo de resolución vía Menú </div>
+     <div>Fig. (3) B. Seteo de resolución vía Menú</div>
 </div>
 
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura7.JPG">
-     <div> Fig. (3) C. Seteo de resolución vía Menú </div>
+     <div>Fig. (3) C. Seteo de resolución vía Menú</div>
 </div>
 
 Como puede detallarse en la Fig. (3) C., al ingresar en la opción R, se pre-visualiza el valor ingresado, lo que permite modificarlo si se detecta un error. Dichos valores pueden cambiarse cuantas veces se desee hasta que no se ingrese la opción de finalizar.
 De ingresar en la opción finalizar se mostrará en pantalla los valores con los que se armara la imagen. Para el ejemplo de la imagen 3 será:
-
-
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura8.JPG"> 
@@ -145,11 +142,11 @@ De ingresar en la opción finalizar se mostrará en pantalla los valores con los
 
 El archivo resultante tendrá la siguiente apariencia.
 
-
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura9.JPG"> 
      <div> Fig. (5) Imagen de Ejemplo </div>
 </div>
+
 
 
 ***
@@ -181,10 +178,13 @@ El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el
      <div>Fig. (7) Resumen de valores ingresados</div>
 </div>
 
+
+
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura12.JPG"> 
-     <div>Fig. (7) Imagen generada de valores ingresados por línea de comando.</div>
+     <div>Fig. (7 b) Imagen generada de valores ingresados por línea de comando.</div>
 </div>
+
 
 
 ***
@@ -196,10 +196,12 @@ En el encabezado de la imagen se agregó la posición del centro y el ancho/alto
 
 Ejemplo de header o encabezado de archivo imagen:
 
+
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura13.JPG"> 
      <div>Fig. (8) Encabezado del archivo imagen generado.</div>
 </div>
+
 
 ***
 <a name="Test-del-programa"></a>
@@ -207,29 +209,41 @@ Ejemplo de header o encabezado de archivo imagen:
 
 En la siguiente tabla se volcaron los resultados de las distintas corridas de prueba realizadas y el tiempo medido en segundos de cada prueba. Los resultados son aproximados y no se contempló el error humano en la toma de las mediciones.
 
+
+
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura14.JPG"> 
 </div>
+
+
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura15.JPG"> 
      <div>Fig. (9) Archivos generados en las corridas de pruebas.</div>
 </div>
 
+
+
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura16.JPG"> 
      <div>Fig. (10) Archivos generados en las corridas de pruebas test#21 y test#5</div>
 </div>
+
+
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura17.JPG"> 
      <div>Fig. (11) Archivos generados en las corridas de pruebas test#5 y test#7</div>
 </div>
 
+
+
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura18.JPG"> 
      <div >Fig. (12) Archivos generados en las corridas de pruebas test#5 y test#7</div>
 </div>
+
+
 
 ***
 <a name="conclusiones"></a>
