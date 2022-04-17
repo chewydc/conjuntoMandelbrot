@@ -2,7 +2,7 @@
 Proyecto para la materia  Programacion Orientada a Objetos (año 2015) - Ing Telecomunicaciones
 
 <p align="center">
-     <img src="">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Mandelbrot.jpg">
 </p>
 
 ***
@@ -35,7 +35,7 @@ A su vez, se incorporó un cache de números complejos utilizando listas enlazad
 
 Para la nueva versión del programa, se añadieron 2 clases (señaladas en verde) a las existentes. El conjunto total de archivos seria el siguiente:
 <p align="center">
-     <img src="">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura1.JPG">
 </p>
 
 ***
@@ -43,7 +43,7 @@ Para la nueva versión del programa, se añadieron 2 clases (señaladas en verde
 ### Diagrama General del Programa
 
 <p align="center">
-     <img src="">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura2.JPG">
 </p>
 
 ***
@@ -53,7 +53,7 @@ Para la nueva versión del programa, se añadieron 2 clases (señaladas en verde
 Para la nueva versión del programa, se agregó la opción para el manejo de una memoria Cache del tipo LRU que guarde en la misma los valores complejos que no se haya iterados previamente. Antes de iterar para obtener la intensidad del pixel, se chequea que dicho valor se encuentre en la memoria, si esta se extrae sus datos asociados, de lo contrario se procede a calcular los mismos y se los guardara en la memoria. La lógica se la puede resumir en el siguiente esquema:
 
 <p align="center">
-     <img src="">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura3.JPG">
 </p>
 
 La memoria Cache como se puede observar, es una lista enlazada (se utilizó una lista doblemente enlazada para la reutilización de librerías, pero una lista simplemente enlazada hubiese bastado para la finalidad del programa) donde en la cabecera de la lista se irá guardando el ultimo complejo utilizado, mientras que los nodos del final se irán eliminando a medida que sea necesario agregar valores y que el tamaño del Cache sea el máximo configurado.
@@ -99,9 +99,45 @@ El programa tiene predefinido los siguientes valores por defecto en caso de no i
 
 Si al ejecutar el programa, el mismo detecta que no se pasaron la totalidad de argumentos o ninguno de ellos, se presentara en pantalla un menú como el que se muestra en la figura (2).
 
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura4.JPG"> 
+     <p align="center"> Fig. 2 Menú Principal </p>
+</p>
+Aquí se espera el ingreso de alguna de las opciones presentadas, no marcar opción implicara el seteo de los valores por defecto.
+Para ingresar en algunas de las opciones, el menú admite que se marque la opción numérica o la letra en minúscula o mayúscula correspondiente (la única excepción es la opción c donde se discrimina la mayúscula de la minúscula). Para finalizar además puede ingresarse ‘q’ o ‘Q’.
+Ejemplo:
+Si se desea modificar la resolución de la imagen, puede ingresarse en la opción ‘R’ e ingresar el valor deseado. Figura (3)
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura5.JPG"> 
+     <p align="center"> Fig. (3) A. Seteo de resolución vía Menú </p>
+</p>
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura6.JPG"> 
+     <p align="center"> Fig. (3) B. Seteo de resolución vía Menú </p>
+</p>
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura7.JPG"> 
+     <p align="center"> Fig. (3) C. Seteo de resolución vía Menú </p>
+</p>
 
 Como puede detallarse en la Fig. (3) C., al ingresar en la opción R, se pre-visualiza el valor ingresado, lo que permite modificarlo si se detecta un error. Dichos valores pueden cambiarse cuantas veces se desee hasta que no se ingrese la opción de finalizar.
 De ingresar en la opción finalizar se mostrará en pantalla los valores con los que se armara la imagen. Para el ejemplo de la imagen 3 será:
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura8.JPG"> 
+     <p align="center"> Fig. (4) Armado de Imagen </p>
+</p>
+
+El archivo resultante tendrá la siguiente apariencia.
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura9.JPG"> 
+     <p align="center"> Fig. (5) Imagen de Ejemplo </p>
+</p>
+
 
 ***
 <a name="ejecucion-desatendido"></a>
@@ -121,10 +157,9 @@ Para ejecutar el programa en este modo, es necesario ejecutar el mismo con algun
 Por ejemplo: 
 
 <p align="center">
-     <img src="">
-  <a>Fig. (6) Seteo de parámetros vía modo desatendido</a>
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura10.JPG"> 
+     <p align="center">Fig. (6) Seteo de parámetros vía modo desatendido</p>
 </p>
-
 El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
 
 
