@@ -15,8 +15,11 @@ Proyecto para la materia  Programacion Orientada a Objetos (año 2015) - Ing Tel
 6. [Valores por defecto](#Valores-por-defecto)
 7. [Ejecución del programa vía método Asistido (Menú)](#ejecucion-asistido)
 8. [Ejecución del programa vía método Desatendido o Silencioso](#ejecucion-desatendido)
-9. [Simulacion](#Simulacion)
-10. [Conclusion](#Conclusion)
+9. [Imagen generada](#Imagen-generada)
+10. [Test del programa](#Test-del-programa)
+11. [Conclusiones del Test](#conclusiones)
+12. [Algunos ejemplos de salida](#Algunos-ejemplos-de-salida)
+ 
 
 
 ***
@@ -101,41 +104,49 @@ Si al ejecutar el programa, el mismo detecta que no se pasaron la totalidad de a
 
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura4.JPG"> 
-     <p align="center"> Fig. 2 Menú Principal </p>
+     <h5 align="center"> Fig. 2 Menú Principal </h5>
 </p>
 Aquí se espera el ingreso de alguna de las opciones presentadas, no marcar opción implicara el seteo de los valores por defecto.
 Para ingresar en algunas de las opciones, el menú admite que se marque la opción numérica o la letra en minúscula o mayúscula correspondiente (la única excepción es la opción c donde se discrimina la mayúscula de la minúscula). Para finalizar además puede ingresarse ‘q’ o ‘Q’.
+
 Ejemplo:
+
 Si se desea modificar la resolución de la imagen, puede ingresarse en la opción ‘R’ e ingresar el valor deseado. Figura (3)
+
 
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura5.JPG"> 
-     <p align="center"> Fig. (3) A. Seteo de resolución vía Menú </p>
+     <h5 align="center"> Fig. (3) A. Seteo de resolución vía Menú </h5>
 </p>
+
 
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura6.JPG"> 
-     <p align="center"> Fig. (3) B. Seteo de resolución vía Menú </p>
+     <h5 align="center"> Fig. (3) B. Seteo de resolución vía Menú </h5>
 </p>
+
 
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura7.JPG"> 
-     <p align="center"> Fig. (3) C. Seteo de resolución vía Menú </p>
+     <h5 align="center"> Fig. (3) C. Seteo de resolución vía Menú </h5>
 </p>
 
 Como puede detallarse en la Fig. (3) C., al ingresar en la opción R, se pre-visualiza el valor ingresado, lo que permite modificarlo si se detecta un error. Dichos valores pueden cambiarse cuantas veces se desee hasta que no se ingrese la opción de finalizar.
 De ingresar en la opción finalizar se mostrará en pantalla los valores con los que se armara la imagen. Para el ejemplo de la imagen 3 será:
 
+
+
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura8.JPG"> 
-     <p align="center"> Fig. (4) Armado de Imagen </p>
+     <h5 align="center"> Fig. (4) Armado de Imagen </h5>
 </p>
 
 El archivo resultante tendrá la siguiente apariencia.
 
+
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura9.JPG"> 
-     <p align="center"> Fig. (5) Imagen de Ejemplo </p>
+     <h5 align="center"> Fig. (5) Imagen de Ejemplo </h5>
 </p>
 
 
@@ -158,8 +169,77 @@ Por ejemplo:
 
 <p align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura10.JPG"> 
-     <p align="center">Fig. (6) Seteo de parámetros vía modo desatendido</p>
+     <h5 align="center">Fig. (6) Seteo de parámetros vía modo desatendido</h5>
 </p>
+
 El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
 
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura11.JPG"> 
+     <h5 align="center">Fig. (7) Resumen de valores ingresados</h5>
+</p>
 
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura12.JPG"> 
+     <h5 align="center">Fig. (7) Imagen generada de valores ingresados por línea de comando.</h5>
+</p>
+
+
+***
+<a name="Imagen-generada"></a>
+### Imagen generada
+
+El formato de la imagen generada es PGM en escala de grises. Tiene seteado el valor por defecto de 255 y puede modificarse via la opción [–m] vista previamente.
+En el encabezado de la imagen se agregó la posición del centro y el ancho/alto de la imagen generada a modo de comentario. Puede resultar útil dicha información para generar nuevas imágenes a partir de un archivo ya conformado.
+
+Ejemplo de header o encabezado de archivo imagen:
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura13.JPG"> 
+     <h5 align="center">Fig. (8) Encabezado del archivo imagen generado.</h5>
+</p>
+
+***
+<a name="Test-del-programa"></a>
+### Test del programa
+
+En la siguiente tabla se volcaron los resultados de las distintas corridas de prueba realizadas y el tiempo medido en segundos de cada prueba. Los resultados son aproximados y no se contempló el error humano en la toma de las mediciones.
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura14.JPG"> 
+</p>
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura15.JPG"> 
+     <h5 align="center">Fig. (9) Archivos generados en las corridas de pruebas.</h5>
+</p>
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura16.JPG"> 
+     <h5 align="center">Fig. (10) Archivos generados en las corridas de pruebas test#21 y test#5</h5>
+</p>
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura17.JPG"> 
+     <h5 align="center">Fig. (11) Archivos generados en las corridas de pruebas test#5 y test#7</h5>
+</p>
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura18.JPG"> 
+     <h5 align="center">Fig. (12) Archivos generados en las corridas de pruebas test#5 y test#7</h5>
+</p>
+
+***
+<a name="conclusiones"></a>
+### Conclusiones del Test
+
+Como puede apreciarse en la imagen (9), a medida que se disminuye la cantidad de dígitos significativos utilizados en la comparación de valores complejos la calidad de la imagen disminuye considerablemente pero el tiempo de ejecución se mejora sustancialmente.
+Otra conclusión que podemos obtener de los test  realizados, es que en la corrida sin cache (variable [–C]=’0’) donde cada pixel es resultado de la iteración sin intervención de la comparación de valores complejos, la imagen generada es exactamente igual a la generada vía cache y dígitos significativos en valores [-D]=’4’ y [-C]=’10’. Esta conclusión se obtiene de la figura (10), donde se comparan línea a línea los archivos imagen de los test #5 vs test #21.
+Ahora si analizamos los resultados línea a línea entre archivo del test #5 vs el test #7 donde los dígitos significativos se disminuyeron a [-D]=’3’, en ese caso si encontramos diferencia en sus líneas (imagen 11) aunque abriendo la imagen y comparando visualmente la diferencia es insignificante para el ojo humano (imagen 12).
+Finalmente y pese a lo rudimentario de las pruebas, podemos concluir en que la inserción de la memoria cache al programa es beneficioso en determinadas situaciones, si necesitamos una imagen de mayor resolución (superando los 1024x720) ya comienza a ser beneficioso. Si disminuimos la cantidad de dígitos significativos menor a 3 la calidad de la imagen no es buena y se presenta diferencias perceptibles al ojo humano. Por debajo de la resolución 640x480 (test #1 al #4), nos encontramos que la performance disminuye y resulta conveniente realizar la iteración completa de cada pixel en lugar de recurrir al uso de la memoria Cache.
+
+***
+<a name="Algunos-ejemplos-de-salida"></a>
+### Algunos ejemplos de salida
+
+<p align="center">
+     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura19.JPG"> 
+</p>
