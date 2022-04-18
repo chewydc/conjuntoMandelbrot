@@ -170,7 +170,7 @@ Por ejemplo:
 C:\>TPO_DPOO.exe -o imagen.pgn -D 3 -C 20 -r 1024 720 -s -0.7 0.3 -w 1 -h 1
 ```
 
-El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
+El nombre del programa en este ejemplo es “TPO_DPOO.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura11.JPG"> 
