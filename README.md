@@ -166,23 +166,22 @@ Para ejecutar el programa en este modo, es necesario ejecutar el mismo con algun
 
 Por ejemplo: 
 
-<div align="center">
-     <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Figura10.JPG"> 
-     <div>Fig. (6) Seteo de parámetros vía modo desatendido</div>
-</div>
+```
+C:\>TPO_DPOO.exe -o imagen.pgn -D 3 -C 20 -r 1024 720 -s -0.7 0.3 -w 1 -h 1
+```
 
 El nombre del programa en este ejemplo es “TPO_DPOO_2.exe” y se modificó el nombre del archivo (-o), la cantidad de dígitos significativos (-D), el tamaño del Cache (-C), la resolución (-r), la semilla (-s) y el alto (-h) y ancho (-w). Obteniéndose:
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura11.JPG"> 
-     <div>Fig. (7) Resumen de valores ingresados</div>
+     <div>Fig. (6) Resumen de valores ingresados</div>
 </div>
 
 
 
 <div align="center">
      <img src="https://github.com/chewydc/conjuntoMandelbrot/blob/f4923905ace61eff5a18595e206dda5ac46bc93c/img/Figura12.JPG"> 
-     <div>Fig. (7 b) Imagen generada de valores ingresados por línea de comando.</div>
+     <div>Fig. (7) Imagen generada de valores ingresados por línea de comando.</div>
 </div>
 
 
